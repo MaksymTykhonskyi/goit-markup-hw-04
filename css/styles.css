@@ -260,6 +260,8 @@ margin-top: -30px;
 .staff-list-content{
 padding-top: 30px;
 padding-bottom: 30px;
+ margin-left: 35px;
+margin-right: 35px;
 }
 
 .item{
@@ -423,3 +425,47 @@ margin-left: -30px;
     overflow: hidden;
   }
 
+.social-list{
+  display: flex;
+justify-content: space-between;
+}
+
+
+
+.social-list-link{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 44px;
+height: 44px;
+background-color: tomato;
+border-radius: 50%;
+
+
+}
+
+.social-list-link:hover .social-list-icon,
+.social-list-link:focus .social-list-icon {
+fill: var(--accent-color);
+}
+
+
+.social-list-icon{
+width: 20px;
+height: 20px;
+}
+
+.icon-bd{
+  height: 120px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  background-color: #F5F4FA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon{
+  width: 70px;
+  height: 70px;
+}
