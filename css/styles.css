@@ -205,6 +205,7 @@ margin-bottom: 50px;
     line-height: 1.18;
     text-align: center;
     color: var(--text-color); 
+    margin-bottom: 16px;
 }
 
 .title{
@@ -430,7 +431,10 @@ margin-left: -30px;
 justify-content: space-between;
 }
 
-
+.social-list-link:hover,
+.social-list-link:focus{
+  background-color: var(--accent-color);
+}
 
 .social-list-link{
 display: flex;
@@ -438,7 +442,7 @@ justify-content: center;
 align-items: center;
 width: 44px;
 height: 44px;
-background-color: tomato;
+background-color: transparent;
 border-radius: 50%;
 
 
@@ -446,13 +450,14 @@ border-radius: 50%;
 
 .social-list-link:hover .social-list-icon,
 .social-list-link:focus .social-list-icon {
-fill: var(--accent-color);
+fill: var(--page-color);
 }
 
 
 .social-list-icon{
 width: 20px;
 height: 20px;
+fill: #AFB1B8;
 }
 
 .icon-bd{
@@ -469,3 +474,51 @@ height: 20px;
   width: 70px;
   height: 70px;
 }
+
+
+.client{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+margin-bottom: 50px;
+}
+
+.section-client{
+padding-bottom: 94px;
+padding-top: 94px;
+}
+
+.icon-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    border-radius: 4px;
+    border: 1px solid #afb1b8;
+    fill: #afb1b8;
+    margin-left: 30px;
+
+}
+
+.client-list:hover .icon-link, 
+.client-list:focus .icon-link{
+  fill: var(--accent-color);
+}
+
+.client-list{
+
+  
+}
+
+.icon-client{
+  display: flex;
+  margin-left: calc(-1 * 30px);
+  
+  
+}
+
+
+/* margin-top: 16px;
+  margin-left: 30px;   */
