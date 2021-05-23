@@ -151,6 +151,8 @@ margin: 0 auto;
 border-radius: 4px;
 
 }
+.icon-header{
+}
 
 .button:hover{
   background-color: #188ce8;
@@ -161,7 +163,23 @@ border-radius: 4px;
   background: var(--background-color);
   padding-top:200px;
   padding-bottom: 200px;  
+  background-image: linear-gradient(
+  rgba(47, 48, 58, 0.4),
+  rgba(47, 48, 58, 0.4)), 
+  url("..//images2/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+ max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto
+ 
 }
+
+.background-images{
+  dddddd
+}
+
 
 .paragraph-text{
   font-size: 14px;
@@ -391,7 +409,14 @@ margin-left: -30px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--text-color);
+  align-items: center;
+  display: inline-flex; 
+
 } 
+.icon-header{
+  margin-right: 10px;
+fill: #757575;;
+}
 
   .social-links:hover,
   .social-links:focus{
@@ -489,36 +514,36 @@ padding-bottom: 94px;
 padding-top: 94px;
 }
 
+.icon-client{
+justify-content: center;
+display: flex;
+}
+
+.client-list{
+  margin-right: 30px;
+}
+
 .icon-link{
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
     align-items: center;
     width: 170px;
     height: 92px;
     border-radius: 4px;
     border: 1px solid #afb1b8;
     fill: #afb1b8;
-    margin-left: 30px;
-
 }
+
 
 .client-list:hover .icon-link, 
 .client-list:focus .icon-link{
   fill: var(--accent-color);
 }
 
-.client-list{
-
-  
-}
-
-.icon-client{
+.social-foorer-list{
   display: flex;
-  margin-left: calc(-1 * 30px);
-  
-  
+  color: var(--page-color);
 }
-
-
-/* margin-top: 16px;
-  margin-left: 30px;   */
+.social-foorer{
+  display: flex;
+}
