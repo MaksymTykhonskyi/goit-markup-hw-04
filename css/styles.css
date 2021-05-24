@@ -108,6 +108,7 @@ color: var(--accent-color);
   .header {
     padding-top: 25px;
     padding-bottom: 25px;
+    border-bottom: 1px solid #ECECEC;
   }
 
 .nav-link{
@@ -129,6 +130,8 @@ color: var(--accent-color);
 
 .social{
 display: flex;
+align-items: center;
+margin-left: auto;
 
 }
 
@@ -256,7 +259,6 @@ margin-bottom: 10px;
   color: var(--title-color);
 
 }
-
 .text-list{
 font-size: 16px;
 line-height: 1.87;
@@ -411,8 +413,13 @@ margin-left: -30px;
   color: var(--text-color);
   align-items: center;
   display: inline-flex; 
-
+  
 } 
+
+.social-links:hover .icon-header,
+.social-links:focus .icon-header{
+  fill: var(--accent-color);
+}
 .icon-header{
   margin-right: 10px;
 fill: #757575;;
@@ -540,34 +547,59 @@ display: flex;
   fill: var(--accent-color);
 }
 
-.social-foorer-title{
-
+.icon-link:hover,
+.icon-link:focus{
+  border: 1px solid #2196F3;
 }
 
 .social-footer-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  
+}
 
+.social-footer-icon:hover,
+.social-footer-icon:focus{
+background-color: var(--accent-color);
 }
 
 .social-foorer-list{
   display: flex;
+  justify-content: space-between;
   
-}
-
-.page-footer{
-  
-}
-
-.footer-container{
 }
 
 .social-foorer-title{
-  display: block;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--page-color);
+  margin-bottom: 20px;
 }
 
 
+.general-container{
+  display: flex;
+  align-items: baseline;
+}
 
+
+.social-footer{
+  display: block;
+  width: 206px;
+  /* height: 80px; */
+  margin-left: 70px;
+}
+
+.footer-icon{
+fill: var(--page-color);
+
+https://www.facebook.com/
+
+https://www.linkedin.com/
