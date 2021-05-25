@@ -571,6 +571,7 @@ background-color: var(--accent-color);
 .social-foorer-list{
   display: flex;
   justify-content: space-between;
+  cursor: pointer;
   
 }
 
@@ -598,8 +599,5 @@ background-color: var(--accent-color);
 }
 
 .footer-icon{
-fill: var(--page-color);
-
-https://www.facebook.com/
-
-https://www.linkedin.com/
+  fill: var(--page-color);
+}
